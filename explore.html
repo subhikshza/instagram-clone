@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta-Explore Page</title>
+</head>
+<body class="struct">
+
+    <div class="searchh">
+        <input class="search" id="search" placeholder="🔍Explore Now">
+    </div>
+
+
+    <div class="container" id="container">
+     <div class="child one">  </div>
+     <div class="child two" ></div>
+     <div class="child three"></div>
+     <div class="child four"></div>
+     <div class="child five"></div>
+     <div class="child six"></div>
+     <div class="child seven"></div>
+     <div class="child eight"></div>
+     <div class="child nine"></div>
+      <div class="child ten"></div>
+       <div class="child eleven"></div>
+        <div class="child twelve"></div>
+        <div class="child thirteen"></div>
+        <div class="child fourteen"></div>
+        <div class="child fifteen"></div>
+
+    </div>
+    <hr>
+    <div class="tools">
+               <h3 class="icon home">🏠</h3>
+               <h3 class="icon sea">🔍</h3>
+               <h3 class="icon reels">🎬</h3>
+               <h3 class="icon inbox">✉️</h3>
+               <h3 class="icon notification">🖤</h3>
+               <h3 class="icon create">➕</h3>
+               <h3 class="icon profile">👤</h3>
+              
+    </div>
+</body>
+
+<style>
+
+.struct{
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search{
+    border: 3px solid;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.icon:hover{
+    scale: 110%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.tools{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+.three{
+    background-image: url(https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500);
+}
+.one{
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600);
+}
+.two{
+     background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=500);
+}
+.four{
+    background-image: url(https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600);
+}
+.five{
+    background-image: url(https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600);
+}
+.six{
+    background-image: url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=600);
+}
+.seven{
+    background-image: url(https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600);
+}
+
+.eight{
+    background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600);
+}
+
+.nine{
+    background-image: url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600);
+}
+
+.ten{
+    background-image: url(https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600);
+}
+.eleven{
+    background-image: url(https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=600);
+}
+.twelve{
+    background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600);
+}
+.thirteen{
+    background-image: url(https://images.unsplash.com/photo-1622185135505-2d795003994a?w=600);
+}
+
+
+.fourteen{
+    background-image: url(https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600);
+}
+
+.fifteen{
+    background-image: url(https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600);
+}
+
+.child{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+.container{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: 1fr 1fr 1fr  ;
+gap: 5px;
+}
+.child{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    gap: 2px;
+    border-radius: 5px;
+     transition: 0.3s ease; 
+}
+.child:hover{
+   opacity: 1;
+
+}
+
+@media screen and (min-width: 768px){
+.container,.searchh{
+margin-left: 120px;
+}
+
+.tools{
+position: fixed;
+left: 0;
+top: 0;
+width: 100px;
+height: 100vh;
+flex-direction: column;
+justify-content: flex-start;
+gap: 30px;
+padding-top: 40px;
+border-radius: 0px;
+border-right: 1px solid #333;
+}
+
+hr{
+        display: none;
+}
+}
+
+
+
+
+</style>
+
+
+</html>
